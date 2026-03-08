@@ -21,7 +21,6 @@ const sidebar_guide_henlo = {
 const themeConfig = {
   search: 'Search',
   selectLanguageName: "English",
-
   backToHome: "Take me home",
   contributorsText: "Contributors",
   editLinkText: "Edit this page",
@@ -63,7 +62,6 @@ const themeConfig = {
       ]
     },
   ],
-    
   sidebar: {
     '/installing-henkaku': [
       sidebar_guide_henkaku
@@ -78,6 +76,14 @@ const themeConfig = {
       sidebar_guide_henlo
     ],
   },
+  footer: {
+		copyright: 'Copyright © 2026 emiyl & Nintendo Homebrew',
+		items: [
+			{ text: "Credits", link: `/credits` },
+			{ text: "Privacy Policy", link: `/privacy-policy` },
+			{ text: "Site Navigation", link: `/site-navigation` }
+		]
+	}
 };
 
 export default {

@@ -8,33 +8,33 @@ The guide uses the VitaDeploy application as the primary method of installing ot
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
-### What You Need
+## Requirements
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-    + Alternatively, you can also use the USB transfer feature of VitaShell
+    * Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest version of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
-    + Download the `VitaDeploy.vpk` file
+    * Download the `VitaDeploy.vpk` file
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
-1. Launch the VitaShell application
-1. Press <Btn btn="START" /> to open the VitaShell settings
-1. Press <Btn btn="confim" /> on "SELECT button" to change the mode to "FTP"
-    + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-1. Press <Btn btn="cancel" /> to close the VitaShell settings
-1. Press <Btn btn="SELECT" /> to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `VitaDeploy.vpk` to the `data/` folder
-1. Press <Btn btn="cancel" /> on your device to close the FTP connection
+1. Launch the VitaShell application.
+1. Press <Btn btn="START"/> to open the VitaShell settings.
+1. Press <Btn btn="confim"/> on `SELECT button` to change the mode to `FTP`.
+    * Alternatively, you can leave this setting on `USB` and transfer all files via a USB cable for the remainder of this guide.
+1. Press <Btn btn="cancel"/> to close the VitaShell settings.
+1. Press <Btn btn="SELECT"/> to enable FTP access on your device.
+1. Open your FTP client on your computer.
+1. Enter the IP Address and Port displayed on your device.
+1. Using your FTP client, navigate to `ux0:` > `data/`.
+1. Transfer `VitaDeploy.vpk` to the `data/` folder.
+1. Press <Btn btn="cancel"/> on your device to close the FTP connection.
 
-#### Section II - Installing the application
+### Section II - Installing the application
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `data/`
-1. Press <Btn btn="confirm" /> on "VitaDeploy.vpk"
-1. Press <Btn btn="confirm" /> to confirm the install
-1. Press <Btn btn="confirm" /> to confirm the install again when prompted
+1. Launch the VitaShell application.
+1. Navigate to `ux0:` > `data/`.
+1. Press <Btn btn="confirm"/> on `VitaDeploy.vpk`.
+1. Press <Btn btn="confirm"/> to confirm the install.
+1. Press <Btn btn="confirm"/> to confirm the install again when prompted.
 
 VitaDeploy should now be installed to your home screen.

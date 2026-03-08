@@ -13,15 +13,21 @@ hero:
 ---
 
 ::: tip
+
 For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+
 :::
 
 ::: warning
+
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
+
 :::
 
 ::: danger
-This guide is for retail (consumer purchased; not from the PlayStation Partner Program) consoles _only_!
+
+This guide is for retail (consumer purchased; not from the PlayStation Partner Program) consoles *only*!
+
 :::
 
 <!--::: tip
@@ -31,7 +37,8 @@ Alternatively, click [here](https://crowdin.com/project/vita-guide) to help to k
 :::-->
 
 ::: tip
-**Important**: Please select your button layout: <BtnToggler />
+
+**Important**: Please select your button layout: <BtnToggler/>
 
 :::
 
@@ -57,21 +64,21 @@ Ensō is available on all devices with firmware version 3.65 or below, while hig
 
 ## What can I do with Custom Firmware?
 
-+ Customize your home screen with user-created [themes](http://vstema.com/).
-+ Use "ROM hacks" for games that you own
-+ [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Dump your game cards to a format you can install, and play them without needing the card.
-+ Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
-+ Play your PSP games on your Vita with Adrenaline ePSP CFW
+* Customize your home screen with user-created [themes](http://vstema.com/).
+* Use "ROM hacks" for games that you own
+* [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
+* Play games for older systems with various emulators, using RetroArch or other standalone emulators.
+* Dump your game cards to a format you can install, and play them without needing the card.
+* Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
+* Play your PSP games on your Vita with Adrenaline ePSP CFW
 
 ## What do I need to know before starting?
 
-+ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.74
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
-+ **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
-+ The PS Vita 2000 and PS TV models are essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to other models unless otherwise specified.
+* **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
+* This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.74
+* If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
+* **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
+* The PS Vita 2000 and PS TV models are essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to other models unless otherwise specified.
 
 ::: tip
 

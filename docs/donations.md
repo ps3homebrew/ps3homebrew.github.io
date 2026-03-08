@@ -5,7 +5,18 @@ sidebar: false
 
 # Donations
 
-### emiyl
+::: tip
 
-<a href="https://emiyl.com/paypal" target="_blank" style="padding: 1em;"><img src="/assets/images/paypal_white.png" alt="PayPal"/></a>
-<p style="text-align: center;">emiyl.com/paypal</p>
+[![Ko-Fi](/assets/images/ko-fi_white.png)](https://ko-fi.com/emiyl){style="display: block;text-align: center"}
+
+[https://ko-fi.com/emiyl](https://ko-fi.com/emiyl){style="display: block;text-align: center"}
+
+:::
+
+::: tip
+
+[![PayPal](/assets/images/paypal_white.png)](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
+
+[https://paypal.me/NintendoHomebrew](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
+
+:::

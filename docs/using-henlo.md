@@ -4,7 +4,7 @@ next: true
 
 # Using HENlo
 
-### Required Reading
+## Required Reading
 
 The HENlo exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65, 3.68, and 3.74.
 
@@ -14,37 +14,41 @@ In addition to running HENlo, we will also enable access to "unsafe" homebrew wh
 
 The "VitaDeploy" application will also be installed to your home screen. VitaDeploy makes installing apps, plugins, and custom firmwares simple and includes many useful tools and utilites.
 
-### What You Need
+## Requirements
 
 * An internet connection on your PS Vita (TV)
 
-### Instructions
+## Instructions
 
-#### Section I - Launching HENlo
+### Section I - Launching HENlo
 
-1. Launch the browser and go to the following URL on your device: `http://jailbreak.psp2.dev`
-1. On the HENlo page, press `Unlock my Vita`, then press `Unlock`
-    + If you get an error or cannot proceed, follow our [troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
-1. If the exploit was successful, you should be greeted by a screen titled "henlo-bootstrap"
+1. Launch the browser and go to the following URL on your device: `http://jailbreak.psp2.dev`.
+1. On the HENlo page, press `Unlock my Vita`, then press `Unlock`.
+    * If you get an error or cannot proceed, follow our [troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working).
+1. If the exploit was successful, you should be greeted by a screen titled `henlo-bootstrap`.
 
-#### Section II - Installing HENkaku and VitaDeploy
+### Section II - Installing HENkaku and VitaDeploy
 
 ::: danger
-If you are on a first generation Vita without an official memory card, before reading this section create an internal memory partition by following [Creating an internal memory card](creating-an-internal-memory-card). Once created, you are free to come back to this part of the guide and follow it **from the start again**. 
+
+If you are on a first generation Vita without an official memory card, before reading this section create an internal memory partition by following [Creating an internal memory card](creating-an-internal-memory-card). Once created, you are free to come back to this part of the guide and follow it **from the start again**.
+
 :::
 
-1. Press <Btn btn="cross" /> on "Install henkaku" to enable homebrew
-1. Press <Btn btn="cross" /> on "Install VitaDeploy"
-1. Press <Btn btn="cross" /> on "Exit"
+1. Press <Btn btn="cross"/> on `Install henkaku` to enable homebrew.
+1. Press <Btn btn="cross"/> on `Install VitaDeploy`.
+1. Press <Btn btn="cross"/> on `Exit`.
 
-#### Section III - Configuring HENkaku
+### Section III - Configuring HENkaku
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. Launch the Settings application.
+1. Navigate to `HENkaku Settings`.
+1. Check `Enable Unsafe Homebrew`.
+1. Return to HENkaku Settings menu.
+1. Close the Settings application.
 
 ::: tip
-You can change your <Btn btn="circle" /> button behavior now. If you do, change it for the guide too: <BtnToggler />
+
+You can change your <Btn btn="circle"/> button behavior now. If you do, change it for the guide too: <BtnToggler/>
+
 :::

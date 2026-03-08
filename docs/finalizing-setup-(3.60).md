@@ -4,21 +4,21 @@ sidebar: true
 
 # Finalizing Setup (3.60)
 
-### Required Reading
+## Required Reading
 
 We will now setup applications and plugins such as the following:
 
-+  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
-+  **NoNpDrm** *(allows for encrypted games and applications to be used)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
-+  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
-+  **shellbat** *(displays exact battery percentage in the status bar)*
-+  **pngshot** *(improves the built-in screenshot utility)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
+* **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
+* **NoNpDrm** *(allows for encrypted games and applications to be used)*
+* **0syscall6** *(allows using games and applications that require higher firmware versions)*
+* **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
+* **shellbat** *(displays exact battery percentage in the status bar)*
+* **pngshot** *(improves the built-in screenshot utility)*
+* **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
-### What You Need
+## Requirements
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
 * [config.txt](/assets/files/config.txt)
@@ -32,81 +32,87 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 ### Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
-1. Launch the VitaShell application
-1. Press <Btn btn="START" /> to open the VitaShell settings
-1. Press <Btn btn="confirm" /> on "SELECT button" to change the mode to "FTP"
-    + You cannot use USB file transfer for this section
-1. Press <Btn btn="cancel" /> to close the VitaShell settings
-1. Press <Btn btn="SELECT" /> to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:`
-    + The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise)
-    + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!)
-1. Delete the `tai` folder if it exists
-1. Navigate to the `data/` folder
-1. Transfer `iTLS-Enso.vpk` to the `data/` folder
-1. Navigate to `ur0:` -> `tai/`
-1. Transfer `config.txt` to  the `tai/` folder
-    + Overwrite (replace) the existing `config.txt` file
-1. Transfer `nonpdrm.skprx` to the `tai/` folder
-1. Transfer `0syscall6.skprx` to the `tai/` folder
-1. Transfer `download_enabler.suprx` to the `tai/` folder
-1. Transfer `shellbat.suprx` to the `tai/` folder
-1. Transfer `pngshot.suprx` to the `tai/` folder
-1. Transfer `PSVshell.skprx` to the `tai/` folder
-1. Press <Btn btn="cancel" /> on your device to close the FTP connection
-    + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
+1. Launch the VitaShell application.
+1. Press <Btn btn="START"/> to open the VitaShell settings.
+1. Press <Btn btn="confirm"/> on `SELECT button` to change the mode to `FTP`.
+    * You cannot use USB file transfer for this section.
+1. Press <Btn btn="cancel"/> to close the VitaShell settings.
+1. Press <Btn btn="SELECT"/> to enable FTP access on your device.
+1. Open your FTP client on your computer.
+1. Enter the IP Address and Port displayed on your device.
+1. Using your FTP client, navigate to `ux0:`.
+    * The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise).
+    * The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!).
+1. Delete the `tai` folder if it exists.
+1. Navigate to the `data/` folder.
+1. Transfer `iTLS-Enso.vpk` to the `data/` folder.
+1. Navigate to `ur0:` > `tai/`.
+1. Transfer `config.txt` to  the `tai/` folder.
+    * Overwrite (replace) the existing `config.txt` file.
+1. Transfer `nonpdrm.skprx` to the `tai/` folder.
+1. Transfer `0syscall6.skprx` to the `tai/` folder.
+1. Transfer `download_enabler.suprx` to the `tai/` folder.
+1. Transfer `shellbat.suprx` to the `tai/` folder.
+1. Transfer `pngshot.suprx` to the `tai/` folder.
+1. Transfer `PSVshell.skprx` to the `tai/` folder.
+1. Press <Btn btn="cancel"/> on your device to close the FTP connection.
+    * For more information on plugins and their installation, read the [Samilops Autoplugin Guide](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin).
 
-#### Section II - Installing homebrew applications
+### Section II - Installing homebrew applications
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `data/`
-1. Press <Btn btn="triangle" /> to open the side menu
-1. Press <Btn btn="confirm" /> on "Mark all"
-1. Press <Btn btn="triangle" /> to open the side menu again
-1. Press <Btn btn="confirm" /> on "More"
-1. Press <Btn btn="confirm" /> on "Install all"
-1. Press <Btn btn="confirm" /> to confirm the install
-1. Press <Btn btn="confirm" /> to confirm the install again when prompted
+1. Launch the VitaShell application.
+1. Navigate to `ux0:` > `data/`.
+1. Press <Btn btn="triangle"/> to open the side menu.
+1. Press <Btn btn="confirm"/> on `Mark all`.
+1. Press <Btn btn="triangle"/> to open the side menu again.
+1. Press <Btn btn="confirm"/> on `More`.
+1. Press <Btn btn="confirm"/> on `Install all`.
+1. Press <Btn btn="confirm"/> to confirm the install.
+1. Press <Btn btn="confirm"/> to confirm the install again when prompted.
 
-#### Section III - Installing iTLS
+### Section III - Installing iTLS
 
-1. Open the iTLS-Enso application
-1. Press <Btn btn="cross" /> on "Install the full iTLS package"
-    + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
-1. Wait for your device to reboot
+1. Open the iTLS-Enso application.
+1. Press <Btn btn="cross"/> on `Install the full iTLS package`.
+    * If not on HENkaku Ensō, select `Install the iTLS compat module (web-browser)` instead.
+1. Wait for your device to reboot.
 
-#### Section IV - Blocking Updates
+### Section IV - Blocking Updates
 
-1. Launch the Settings application
-1. Navigate to `System` -> `Auto-Start Settings`
-1. Uncheck the `Download Update File for System Sofwtare`
-1. Close the Settings application
+1. Launch the Settings application.
+1. Navigate to `System` > `Auto-Start Settings`.
+1. Uncheck the `Download Update File for System Sofwtare`.
+1. Close the Settings application.
 
-#### Section V - PSN Access
+### Section V - PSN Access
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-1. Check "Enable PSN spoofing"
-1. Check "Enable Version Spoofing"
-1. Navigate to "Spoofed Version"
-1. Enter "3.74" into the box
-    + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
-1. Close the Settings application
+1. Launch the Settings application.
+1. Navigate to `HENkaku Settings`.
+1. Check `Enable PSN spoofing`.
+1. Check `Enable Version Spoofing`.
+1. Navigate to `Spoofed Version`.
+1. Enter `3.74` into the box.
+    * Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN.
+1. Close the Settings application.
 
-___
+---
 
 ::: danger
+
 It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
+
 :::
 
 ::: tip
+
 For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
+
 :::
 
 ::: tip
+
 For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
+
 :::

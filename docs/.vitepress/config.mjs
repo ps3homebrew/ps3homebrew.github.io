@@ -29,6 +29,9 @@ export default defineConfig({
     hostname: 'https://vita.hacks.guide'
   },
   themeConfig: {
+    outline: {
+      level: 'deep'
+    },
     docFooter: {
       prev: false,
       next: false
@@ -42,6 +45,7 @@ export default defineConfig({
       '5342'
     ],
   },
+  cleanUrls: true,
   vite: {
     resolve: {
       alias: [
