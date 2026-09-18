@@ -4,7 +4,7 @@ A complete guide to PS3 jailbreak and homebrew setup.
 
 [![Website Badge](https://img.shields.io/badge/website-ps3homebrew.github.io-006FCD?logo=vitepress&logoColor=FFFFFF)](https://ps3homebrew.github.io/)
 [![Discord Server](https://img.shields.io/badge/chat-playstation%20homebrew-7289DA?logo=discord&logoColor=FFFFFF)](https://discord.gg/BVp9Rka)
-[![Last Commit Badge](https://img.shields.io/github/last-commit/hacks-guide/Guide_Vita)](https://github.com/ps3homebrew/ps3homebrew.github.io/commits/master/)
+[![Last Commit Badge](https://img.shields.io/github/last-commit/ps3homebrew/ps3homebrew.github.io)](https://github.com/ps3homebrew/ps3homebrew.github.io/commits/master/)
 [![MIT License](https://img.shields.io/badge/license-MIT-A31F34)](https://github.com/ps3homebrew/ps3homebrew.github.io/blob/master/LICENSE.txt)
 
 For support, join the PlayStation Homebrew Discord Server linked above.
