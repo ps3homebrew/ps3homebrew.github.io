@@ -1,8 +1,8 @@
 ---
 layout: home
-title: "Vita Hacks Guide"
+title: "PS3 Hacks Guide"
 hero:
-  text: "Vita Hacks Guide"
+  text: "PS3 Hacks Guide"
   tagline: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
   image:
     src: "/assets/images/home-page-feature.jpg"
