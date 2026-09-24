@@ -14,7 +14,7 @@ hero:
 
 ::: warning
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Thoroughly read all of the introductory pages (including this one) before proceeding.
 
 :::
 
