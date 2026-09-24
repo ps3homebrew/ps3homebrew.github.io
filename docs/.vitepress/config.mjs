@@ -1,6 +1,5 @@
 /*
-  Copyright (C) 2024 Nintendo Homebrew
-  Copyright (C) 2024 emiyl
+  Copyright (C) 2026 PlayStation Homebrew
   SPDX-License-Identifier: MIT
 */
 
@@ -14,8 +13,8 @@ import * as i18n from './i18n'
 process.env.VITE_EXTRA_EXTENSIONS = 'vpk,img'
 
 export default defineConfig({
-  title: "Vita Hacks Guide",
-  description: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō.",
+  title: "PS3 Homebrew",
+  description: "A complete guide to PS3 jailbreak and homebrew setup.",
   head: [
     ['link', { rel: 'icon', href: '/assets/images/favicon.ico' }],
     [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/5303.js' } ],
@@ -26,7 +25,7 @@ export default defineConfig({
     root: i18n.en_US
   },
   sitemap: {
-    hostname: 'https://vita.hacks.guide'
+    hostname: 'https://ps3homebrew.github.io'
   },
   themeConfig: {
     outline: {
@@ -37,8 +36,8 @@ export default defineConfig({
       next: false
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/m7MwpKA' },
-      { icon: 'github', link: 'https://github.com/hacks-guide/Guide_Vita' }
+      { icon: 'discord', link: 'https://discord.gg/BVp9Rka' },
+      { icon: 'github', link: 'https://github.com/ps3homebrew/ps3homebrew.github.io' }
     ],
     adUnits: [
       '5340',

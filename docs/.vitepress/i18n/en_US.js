@@ -29,7 +29,7 @@ const themeConfig = {
   selectLanguageAriaLabel: "Select language",
   toggleDarkMode: "Toggle dark mode",
   toggleSidebar: "Toggle sidebar",
-  discordNoticeText: "For support in English, ask for help at [HENkaku on Discord](https://discord.gg/m7MwpKA).",
+  discordNoticeText: "For support in English, ask for help at [PlayStation Homebrew](https://discord.gg/BVp9Rka).",
 
   nav: [
     {
@@ -77,10 +77,9 @@ const themeConfig = {
     ],
   },
   footer: {
-		copyright: 'Copyright © 2026 emiyl & Nintendo Homebrew',
+		copyright: 'Copyright © 2026 PlayStation Homebrew',
 		items: [
 			{ text: "Credits", link: `/credits` },
-			{ text: "Privacy Policy", link: `/privacy-policy` },
 			{ text: "Site Navigation", link: `/site-navigation` }
 		]
 	}
@@ -89,7 +88,7 @@ const themeConfig = {
 export default {
   lang: 'en-US',
   label: "English",
-  title: 'Vita Hacks Guide',
-  description: 'A complete guide to PS Vita (TV) custom firmware, from stock to Ensō.',
+  title: 'PS3 Homebrew',
+  description: 'A complete guide to PS3 jailbreak and homebrew setup.',
   themeConfig: themeConfig
 }
