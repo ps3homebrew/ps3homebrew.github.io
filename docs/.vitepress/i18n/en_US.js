@@ -35,14 +35,17 @@ const themeConfig = {
     {
       text: 'Guides',
       items: [
-        { text: 'Adrenaline', link: '/adrenaline' },
+        { 
+		  text: 'Installing CFW', 
+		  link: '/installing-cfw' 
+		},
         {
-          text: 'SD2Vita',
-          link: '/yamt'
+		  text: 'Installing PS3HEN',
+          link: '/installing-hen'
         },
           {
-          text: 'Uninstalling CFW',
-          link: '/uninstalling-cfw'
+          text: 'Installing qCFW',
+          link: '/installing-qcfw'
         },
       ]
     },
@@ -56,7 +59,6 @@ const themeConfig = {
     {
       text: 'Site Info',
       items: [
-        { text: 'Donations', link: '/donations' },
         { text: 'Credits', link: '/credits' },
         { text: 'Site Navigation', link: '/site-navigation' }
       ]
@@ -77,7 +79,6 @@ const themeConfig = {
     ],
   },
   footer: {
-		copyright: 'Copyright © 2026 PlayStation Homebrew',
 		items: [
 			{ text: "Credits", link: `/credits` },
 			{ text: "Site Navigation", link: `/site-navigation` }
