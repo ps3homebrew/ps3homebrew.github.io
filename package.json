@@ -1,10 +1,6 @@
 {
   "devDependencies": {
-<<<<<<< Updated upstream
-    "vitepress": "2.0.0-alpha.20"
-=======
     "vitepress": "^2.0.0-alpha.10"
->>>>>>> Stashed changes
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
