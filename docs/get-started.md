@@ -11,9 +11,9 @@ First of all, you have to know that there are 3 major PS3 hardware revisions:
 * The 2nd revision, so-called **Slim**;
 * The 3rd revision, so-called **Super Slim**.
 
-|						PS3 Fat							|							PS3 Slim							|						PS3 Super Slim								|
-| -----------------------------------------------------	| ------------------------------------------------------------- | -----------------------------------------------------------------	|
-|![PS3 Fat](/assets/images/consolemodels/PS3-Fat.png)	|	![PS3 Fat](/assets/images/consolemodels/PS3-Slim.png)		|	![PS3 Fat](/assets/images/consolemodels/PS3-Super-Slim.png)  	|
+|						PS3 Fat							|							PS3 Slim							|						PS3 Super Slim									|
+| -----------------------------------------------------	| ------------------------------------------------------------- | ---------------------------------------------------------------------	|
+|![PS3 Fat](/assets/images/consolemodels/PS3-Fat.png)	|	![PS3 Slim](/assets/images/consolemodels/PS3-Slim.png)		|	![PS3 SuperSlim](/assets/images/consolemodels/PS3-Super-Slim.png)  	|
 
 Based on that, you gotta determinate if your console can install full Custom Firmware. If you can't, don't worry, there are alternatives to still enjoy your PS3.
 
@@ -21,7 +21,7 @@ All Fat PS3s and most Slim PS3s can install full CFW, on which it depends on the
 
 If you have a Slim console, check up the CECH serial number found on the bottom or back of the console, along with the Datecode.
 
-The serial number CECH-25XX and Datecode 1B or above (CECH-30XX) indicates that you can't install full CFW.
+The serial number [CECH-25XX](models\slim\CECH-25) and Datecode 1B or above indicates that you can't install full CFW.
 
 If you can't install full CFW, you have two alternatives:
 
@@ -34,6 +34,14 @@ Check the differences between each exploit: [Exploit Differences](exploit-differ
 Based on your choice and availability you can pick any of this guides:
 
 [Installing Custom Firmware](installing-cfw) | [Installing PS3HEN](installing-hen) | [Installing qCFW](installing-qcfw)
+
+However, if you're first looking to get a PS3 on the first place, check out this guide: [Getting the best PS3](best-ps3).
+
+::: tip
+
+Go back to [PS3 Homebrew Guide](index)
+
+:::
 
 
 
