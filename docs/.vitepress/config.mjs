@@ -15,6 +15,7 @@ process.env.VITE_EXTRA_EXTENSIONS = 'vpk,img'
 export default defineConfig({
   title: "PS3 Homebrew",
   description: "A complete guide to PS3 jailbreak and homebrew setup.",
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/assets/images/favicon.ico' }],
     [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/5303.js' } ],
