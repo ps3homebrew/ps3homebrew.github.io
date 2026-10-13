@@ -1,0 +1,1 @@
+# CFW (Custom Firmware) Compatibility

@@ -21,7 +21,7 @@ All Fat PS3s and most Slim PS3s can install full CFW, on which it depends on the
 
 If you have a Slim console, check up the CECH serial number found on the bottom or back of the console, along with the Datecode.
 
-The serial number [CECH-25XX](models\slim\CECH-25) and Datecode 1B or above indicates that you can't install full CFW.
+The serial number [CECH-25XX](https://www.psdevwiki.com/ps3/CECH-25xx) and Datecode 1B or above indicates that you can't install full CFW.
 
 If you can't install full CFW, you have two alternatives:
 

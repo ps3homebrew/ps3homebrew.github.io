@@ -4,7 +4,7 @@
 
 Before proceeding, you want to follow this guides:
 
-* [Installing Hybrid FirmWare](installing-hfw)
+* [Installing Hybrid Firmware](installing-hfw)
 * [Installing PS3HEN](installing-hen)
 
 And you want to have: 
@@ -21,7 +21,7 @@ In case it's not, you will need to connect this drive to a PC. Once plugged, you
 
 ### PC side
 
-Download the latest qCFW release from here: <https://github.com/aomsin2526/BadWDSD/releases/latest>
+Download the latest qCFW release from here: https://github.com/aomsin2526/BadWDSD/releases/latest
 
 Then extract the .zip and put the "qcfw" folder in the root of the USB.
 
@@ -36,4 +36,4 @@ It should succeed but if it doesn't, reinstall Hybrid Firmware and HEN and try a
 
 ## Installing the RP-2040
 
-You'll need to first [disassemble the console](disassembly)
+You'll need to first shut down and [disassemble the console](disassembly)

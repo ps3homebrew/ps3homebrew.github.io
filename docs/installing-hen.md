@@ -4,7 +4,7 @@
 
 Before proceeding, you want to follow this guide:
 
-[Installing Hybrid FirmWare](installing-hfw)
+[Installing Hybrid Firmware](installing-hfw)
 
 And you want to have: 
 * Any sort of Internet connection.
@@ -25,7 +25,7 @@ In the tools menu you will need to switch Confirm Browser Close to off, and afte
 * Press Start, put the address http://ps3xploit.me/hen/installer/auto and press Enter. 
 * It is recommended to, once the page is loaded, press Select and add it to the bookmarks for easier access in case the exploit fails.
 * A .p3t file should be downloaded, after which you can exit with Circle.
-* Press X over Auto Install HEN. In case this fails, restart your console and repeat the steps of this section.
+* Press X over Auto Install HEN. In case this fails, restart your console and repeat the steps you followed up to this point.
 * If it fails multiple times, try changing the address to the dev version of HEN: http://ps3xploit.me/hen/installer/auto/dev/
 * Once the exploit succeeds, a .pkg should be installed automatically, and after pressing X on OK, your console should restart.
 

@@ -18,9 +18,9 @@ Thoroughly read all of the introductory pages (including this one).
 
 :::
 
-## What is this guide for?
+## What is this page about?
 
-This guide has the end goal of getting the best out of your PS3, jailbreaking it, covering mods, solving issues, and more.
+This page aims to cover all aspects of the best usage you can make out of a PS3, including jailbreaks, homebrew, manteinance, and more!
 
 ::: tip
 

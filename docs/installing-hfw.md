@@ -9,8 +9,8 @@ To install this, you can do so like you would do for any update.
 Before proceeding, you want to make sure you have:
 * Any sort of USB external storage, preferrably a small flash drive.
 * Any sort of Internet connection.
-* A working BluRay daughterboard.
-* A working Bluetooth/WiFi daughterboard.
+* A working Blu-Ray module.
+* A working Bluetooth/WiFi module.
 
 In most cases, you just gotta check if they're working or not by testing a controller via Bluetooth, a physical game and trying to load a compatible http website such as Brewology via WiFi.
 
