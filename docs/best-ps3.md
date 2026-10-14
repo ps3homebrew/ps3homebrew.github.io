@@ -9,7 +9,6 @@ Selecting the best PS3 depends on the things you valuate the most:
 * Price and availability
 * Features
 * Look and feel
-* [Delidding](mods\delid)
 
 Each PS3 model has its own advantages and disadvantages.
 
@@ -23,7 +22,7 @@ This model is even rarer since it was quickly discontinued, due to that it can b
 They're a bit more reliable than [CECHAxx](https://www.psdevwiki.com/ps3/CECHAxx) and [CECHBxx](https://www.psdevwiki.com/ps3/CECHBxx) and usually have better prices and availability, this is probably what you wanna get as the best PS3 in general if you can buy it.
 
 The models mentioned above suffer from having NEC/Tokins and a 90nm RSX which are prone to failure causing the famous [YLOD](problems\ylod).
-Getting a [NEC/Tokins replacement](mods\nec-tokins) along with the [Frankenstein mod](mods\frankenstein) is the best idea.
+Getting a [NEC/Tokins replacement](mods\nec-tokins) along with the [Frankenstein mod](mods\frankenstein) plus a [delid](mods\delid) is the best idea.
 [Undervolting](mods\undervolting) is a good thing to do to these systems too to reduce heat and consumption, but they're still pretty power consuming.
 Keep in mind doing these mods to existing consoles can be expensive depending on your location. Already modded ones are usually a better and cheaper option.
 
@@ -32,7 +31,7 @@ They have a bit more reliable 65nm RSX, but they can still fail due to that GPU 
 
 * If you're looking for a cheaper reliable option, not PS2 compatible, but still CFW compatible, you'll likely want to get a [CECH-25XX](https://www.psdevwiki.com/ps3/CECH-25xx) with a Datecode below 1B, or a [CECH-21XX](https://www.psdevwiki.com/ps3/CECH-251xx) if you can't look up the Datecode or the previous model isn't available for you.
 This models are the last ones on supporting full CFW. They have a 40nm RSX and no NEC/Tokins, so they're very reliable. 
-Keep in mind [CECH-25XX](https://www.psdevwiki.com/ps3/CECH-25xx) is harder to delid.
+Keep in mind [CECH-25XX](https://www.psdevwiki.com/ps3/CECH-25xx) might be harder to [delid](mods\delid), but delidding shouldn't be necessary.
 
 * If you want to just get the cheapest, most available, and usually most reliable option, but not PS2 nor CFW compatible buy a Super Slim (anything between [CECH-40XX](https://www.psdevwiki.com/ps3/CECH-40xx) and [CECH-43XX](https://www.psdevwiki.com/ps3/CECH-43xx)).
 They have the best cooling system, most of them have a 28nm RSX except for most [CECH-40XX](https://www.psdevwiki.com/ps3/CECH-40xx) consoles.
